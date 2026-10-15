@@ -4,3 +4,5 @@ ros2_ws/log/
 __pycache__/
 *.log
 *.tar
+# 第5週：ros2 bag 錄的資料很大，不要 push
+ros2_ws/bags/

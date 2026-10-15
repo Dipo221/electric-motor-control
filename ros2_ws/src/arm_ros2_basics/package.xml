@@ -9,6 +9,20 @@
 
   <depend>rclpy</depend>
   <depend>sensor_msgs</depend>
+  <!-- 第5週 實作 1：參數檢查回呼（SetParametersResult） -->
+  <depend>rcl_interfaces</depend>
+  <!-- 第5週 實作 3：/home 服務（Trigger） -->
+  <depend>std_srvs</depend>
+  <!-- 第5週 實作 5：自訂 Action（MoveJoint） -->
+  <depend>arm_interfaces</depend>
+  <!-- 第5週 實作 2：launch 檔執行時才需要 -->
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>xacro</exec_depend>
+  <exec_depend>moveit_resources_panda_description</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

@@ -1,0 +1,13 @@
+# 第五週：把一個關節移到目標角度
+# ① 目標 Goal：Client → Server
+string joint_name      # 例：panda_joint1
+float64 target         # 目標角度（rad）
+---
+# ② 結果 Result：Server → Client，結束時一次
+bool success
+float64 final_error    # 最終誤差（rad）
+string message
+---
+# ③ 回饋 Feedback：Server → Client，執行中持續
+float64 current        # 目前角度（rad）
+float64 error          # 剩餘誤差（rad）
